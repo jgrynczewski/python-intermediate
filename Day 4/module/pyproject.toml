@@ -1,0 +1,16 @@
+[project]
+name = "mylib"
+version = "0.0.1"
+authors = [
+  { name="John Doe", email="john@doe.com" },
+]
+description = "A small example package"
+requires-python = ">=3.11"
+
+dependencies = [
+    "requests",
+    "flask"
+]
+
+# pip install .
+# pip build
